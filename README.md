@@ -8,7 +8,7 @@ After installing it, run docker engine.
 1. running rabbitMQ on docker: docker run -d --hostname my-rabbit --name ecomm-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 (you can get other ports)
 
-2.check logs: docker logs -f e43beb22ca13
+2. check logs: docker logs -f e43beb22ca13
 ('e43beb22ca13' is a example of running container id, you can check for container id with 'docker ps' command)
 
 3. open up browser and go to: domain:port
