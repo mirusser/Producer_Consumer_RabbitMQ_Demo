@@ -1,0 +1,15 @@
+﻿1. getting rabbitMQ on docker command: docker run -d --hostname my-rabbit --name ecomm-rabiit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+2.check logs: docker logs -f e43beb22ca13
+'e43beb22ca13' is a running container id
+
+3. open up browser and go to: domain:port
+for example: 'localhost:15672'
+
+4. login with these credentials:
+default login: guest
+defaul password: guest
+
+change them after successfuly logging in 
+
+5. add rabbitmq.client nuget package: dotnet add package RabbitMQ.Client --version 6.2.1
