@@ -9,7 +9,7 @@ After installing it, run docker engine.
 (you can get other ports)
 
 2. check logs: ```docker logs -f e43beb22ca13``` 
-('e43beb22ca13' is a example of running container id, you can check for container id with 'docker ps' command)
+('e43beb22ca13' is an example of running container id, you can check for container id with 'docker ps' command)
 
 3. open up browser and go to: domain:port
 for example: 'localhost:15672'
