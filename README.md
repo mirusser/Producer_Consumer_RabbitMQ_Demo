@@ -2,7 +2,7 @@
 Producer service and Consumer service Demo (dotNet 5) with RabbitMQ - this demo uses all types of exchanges (direct, topic, header, fanout) - created for educational purposes
 
 How to get it started.
-First things first. Get a docker on your machine. https://hub.docker.com/
+First things first. Get a docker on your machine: https://www.docker.com/products/docker-desktop. Create account: https://hub.docker.com/
 After installing it, run docker engine.
 
 1. running rabbitMQ on docker: docker run -d --hostname my-rabbit --name ecomm-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
