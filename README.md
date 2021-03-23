@@ -11,12 +11,12 @@ After installing it, run docker engine.
 2. check logs: ```docker logs -f e43beb22ca13``` 
 ('e43beb22ca13' is an example of running container id, you can check for container id with 'docker ps' command)
 
-3. open up browser and go to: domain:port
+3. open up browser and go to: ```domain:port```
 for example: 'localhost:15672'
 
 4. login with these credentials:
-default login: guest
-defaul password: guest
+<br />default login: guest
+<br />defaul password: guest
 
 change them after successfuly logging in, these are default credentials 
 
